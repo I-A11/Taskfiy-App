@@ -10,7 +10,7 @@ interface Props {
 
 const TodoList = ({ todos, setTodos }: Props) => {
   return (
-    <div className='container'>
+    <div className='todos'>
       {todos.map((todo) => {
         return (
           <SingleTodo
